@@ -1,0 +1,489 @@
+﻿Variable,Ubicación,Etiqueta,Nivel de medida
+proy,1,Tipo de cuestionario,Escala
+edo,2, Estado,Escala
+estado,3,Nombre de estado,Nominal
+muni,4, Municipio,Escala
+municipio,5,Nombre de municipio,Nominal
+seccion,6, Seccion,Escala
+folio,7, Folio,Escala
+color,8, Utilice la paleta de colores y anote el número que más se acerca al color de la piel de su cara,Nominal
+p1,9, P1. ¿Qué tanto cree usted que se respetan o no se respetan las leyes en México?,Escala
+p2,10," P2. En su opinión, si una persona mata a alguien y las autoridades no hacen nada, ¿los miembros de la comunidad tienen derecho o no tienen derecho de hacer justica con sus propias manos?",Escala
+p3,11," P3. Tomando en cuenta lo que sucede en su comunidad, ¿está muy de acuerdo, algo de acuerdo, algo en desacuerdo o muy en desacuerdo  con la frase La policía hace de mi colonia un lugar más seguro?",Escala
+p4,12," P4. En lo relativo al cumplimiento de las leyes vigentes en su estado y en el país, ¿cuál de las siguientes frases se acerca más a lo que usted piensa?",Escala
+p5,13," P5.  En su opinión, qué es más importante: ¿Qué las autoridades respeten los derechos humanos o que las autoridades capturen a personas acusadas de cometer algún delito?",Escala
+p6,14, P6.  ¿Cuál de las siguientes situaciones considera que es peor?,Escala
+p7_1,15," P7. Por favor dígame,  si en los últimos doce meses usted  Ha cambiado los lugares a donde va de compras  por temor a ser víctima de la delincuencia.",Escala
+p7_2,16," P7. Por favor dígame,  si en los últimos doce meses usted  Ha cambiado los lugares a donde sale a pasear (ej. parques o plazas públicas, centros comerciales, cines, casinos, etc.)   por temor a ser víctima de la delincuencia.",Escala
+p7_3,17," P7. Por favor dígame,  si en los últimos doce meses usted  Se ha cambiado de barrio o colonia [en zona rural utilizar caserío o comunidad]  por temor a ser víctima de la delincuencia.",Escala
+p8,18, P8. ¿En los últimos 12 meses usted o alguien de los que residen en esta vivienda ha sido o no ha sido víctima de algún delito?,Escala
+p9,19," P9. De la siguiente lista, por favor indique, ¿cuál fue el delito que más le afectó a usted/este hogar?",Escala
+p10,20, P10. ¿Quién fue víctima de este delito?,Escala
+p11,21, P11. Y se hizo algo o no se hizo algo para denunciar ese delito?,Escala
+p12_1,22," P12. Si no se hizo algo, ¿por qué razón no se hizo?  Porque no sirve de nada",Escala
+p12_2,23," P12. Si no se hizo algo, ¿por qué razón no se hizo?  Por miedo a que los delincuentes tomen represalias",Escala
+p12_3,24," P12. Si no se hizo algo, ¿por qué razón no se hizo?  Por falta de confianza en las autoridades",Escala
+p12_4,25," P12. Si no se hizo algo, ¿por qué razón no se hizo?  Por malas experiencias con las autoridades en el pasado",Escala
+p12_5,26," P12. Si no se hizo algo, ¿por qué razón no se hizo?  Por no saber a quién acudir",Escala
+p12_6,27," P12. Si no se hizo algo, ¿por qué razón no se hizo?  Porque toma mucho tiempo y da flojera",Escala
+p13_1,28, P13. ¿A quién acudió para resolver ese problema?  Al Ministerio Público/MP,Escala
+p13_2,29, P13. ¿A quién acudió para resolver ese problema?  A un policía cercano,Escala
+p13_3,30, P13. ¿A quién acudió para resolver ese problema?  A un abogado,Escala
+p13_4,31, P13. ¿A quién acudió para resolver ese problema?  A alguna asociación o grupo,Escala
+p13_5,32, P13. ¿A quién acudió para resolver ese problema?  A algún conocido que sabe cómo funciona el sistema,Escala
+p13_6,33," P13. ¿A quién acudió para resolver ese problema?  No acudí a nadie, hice algo por mi propia mano",Escala
+p13_7,34, P13. ¿A quién acudió para resolver ese problema?  Otra,Escala
+p137ot,35, P13.  Otra,Escala
+p14_1,36, P14. ¿Le sirvió acudir  Al Ministerio Público/MP  para resolver el problema?,Escala
+p14_2,37, P14. ¿Le sirvió acudir  A un policía cercano  para resolver el problema?,Escala
+p14_3,38, P14. ¿Le sirvió acudir  A un abogado  para resolver el problema?,Escala
+p14_4,39, P14. ¿Le sirvió acudir  A alguna asociación o grupo  para resolver el problema?,Escala
+p14_5,40, P14. ¿Le sirvió acudir  A algún conocido que sabe cómo funciona el sistema  para resolver el problema?,Escala
+p14_6,41, P14. ¿Le sirvió  No acudí a nadie/hice algo por mi propia mano  para resolver el problema?,Escala
+p14_7,42, P14. ¿Le sirvió acudir  Otra  para resolver el problema?,Escala
+p15_1,43, P15. Cuando usted acudió a  Al Ministerio Público/MP ¿Le pidieron o no le pidieron dinero por el apoyo?,Escala
+p15_2,44, P15. Cuando usted acudió a  A un policía cercano ¿Le pidieron o no le pidieron dinero por el apoyo?,Escala
+p15_3,45, P15. Cuando usted acudió a  A un abogado ¿Le pidieron o no le pidieron dinero por el apoyo?,Escala
+p15_4,46, P15. Cuando usted acudió a  A alguna asociación o grupo ¿Le pidieron o no le pidieron dinero por el apoyo?,Escala
+p15_5,47, P15. Cuando usted acudió a  A algún conocido que sabe cómo funciona el sistema ¿Le pidieron o no le pidieron dinero por el apoyo?,Escala
+p15_6,48," P15. Cuando usted acudió a  No acudí a nadie, hice algo por mi propia mano ¿Le pidieron o no le pidieron dinero por el apoyo?",Escala
+p15_7,49, P15. Cuando usted acudió a  Otra ¿Le pidieron o no le pidieron dinero por el apoyo?,Escala
+p16,50," P16. Durante los últimos 12 meses, ¿usted hizo o no hizo algún trabajo por su comunidad o colonia (como limpieza de calles, mantenimiento de parques, organización de fiestas del pueblo)?",Escala
+p17,51," P17. Hablando de las veces en las que ha realizado algún trabajo por su comunidad o colonia, ¿con quién lo realizó?",Escala
+p18,52," P18. Y ¿qué tanto se logró el resultado buscado? ¿Sí se logró, no se logró o se logró parcialmente?",Escala
+p19,53, P19. ¿Cree usted que es fácil o difícil organizarse con otros ciudadanos para trabajar en una causa común? ¿Muy o algo?,Escala
+p20_1,54," P20. Cuando a usted, a su familia y/o a su comunidad le afecta algún problema ¿alguna vez ha tratado de  Organizarse con otras personas afectadas ?",Escala
+p20_2,55," P20. Cuando a usted, a su familia y/o a su comunidad le afecta algún problema ¿alguna vez ha tratado de  Mandar cartas al periódico ?",Escala
+p20_3,56," P20. Cuando a usted, a su familia y/o a su comunidad le afecta algún problema ¿alguna vez ha tratado de  Quejarse ante las autoridades ?",Escala
+p20_4,57," P20. Cuando a usted, a su familia y/o a su comunidad le afecta algún problema ¿alguna vez ha tratado de  Pedir apoyo a alguna asociación civil ?",Escala
+p20_5,58," P20. Cuando a usted, a su familia y/o a su comunidad le afecta algún problema ¿alguna vez ha tratado de  Asistir a manifestaciones ?",Escala
+p20_6,59," P20. Cuando a usted, a su familia y/o a su comunidad le afecta algún problema ¿alguna vez ha tratado de  Solicitar apoyo a un partido político ?",Escala
+p20_7,60," P20. Cuando a usted, a su familia y/o a su comunidad le afecta algún problema ¿alguna vez ha tratado de  Pedir ayuda a su legislador   (regidores, diputados locales, diputados federales o senadores) ?",Escala
+p20_8,61," P20. Cuando a usted, a su familia y/o a su comunidad le afecta algún problema ¿alguna vez ha tratado de  Llamar a un programa de radio o de televisión ?",Escala
+p20_9,62," P20. Cuando a usted, a su familia y/o a su comunidad le afecta algún problema ¿alguna vez ha tratado de  Escribirle o comunicarse con el Presidente, gobernador o el alcalde  ?",Escala
+p20_10,63," P20. Cuando a usted, a su familia y/o a su comunidad le afecta algún problema ¿alguna vez ha tratado de  Firmar una carta o solicitud de apoyo ?",Escala
+p20_11,64," P20. Cuando a usted, a su familia y/o a su comunidad le afecta algún problema ¿alguna vez ha tratado de  Colocar mantas, carteles o difundir fotografías ?",Escala
+p20_12,65," P20. Cuando a usted, a su familia y/o a su comunidad le afecta algún problema ¿alguna vez ha tratado de  Repartir volantes, circulares o manifiestos ?",Escala
+p20_13,66," P20. Cuando a usted, a su familia y/o a su comunidad le afecta algún problema ¿alguna vez ha tratado de  Enviar mensajes por redes sociales ?",Escala
+gen1,67," GEN1. ¿Es usted alguien a quién la gente pide ayuda para defenderse de una injusticia (por ejemplo, si la policía lo apresa injustamente, o si sufre algún ataque injustificado de alguien con mucho poder)?",Escala
+gen1a,68, GEN1a. ¿Conoce personalmente a alguien que le pueda ayudar a defenderse ante una injusticia?,Escala
+gen1a_1,69, GEN1A. ¿Me puede indicar sus iniciales o seudónimo?  1ª persona,Nominal
+gen1a_2,70, GEN1A. ¿Me puede indicar sus iniciales o seudónimo?  2ª persona,Nominal
+gen1a_3,71, GEN1A. ¿Me puede indicar sus iniciales o seudónimo?  3ª persona,Nominal
+gen1b,72, GEN1b.  O ¿alguno de sus conocidos lo puede a su vez contactar con alguien que le ayude a defenderse ante una injusticia?,Escala
+gen1b_1,73, GEN1B. ¿Me puede indicar sus iniciales o seudónimo?  1ª persona,Nominal
+gen1b_2,74, GEN1B. ¿Me puede indicar sus iniciales o seudónimo?  2ª persona,Nominal
+gen1b_3,75, GEN1B. ¿Me puede indicar sus iniciales o seudónimo?  3ª persona,Nominal
+tab1a_1,76, TAB1a. ¿Qué relación tiene con... ? 1º persona,Escala
+tab1b_1,77, TAB1b.  ¿A cuál de estas organizaciones pertenece ...? 1º persona,Escala
+tab1b13,78, TAB1b.  ¿Cuál asociación? 1º persona,Escala
+tab1b16,79, TAB1b.  ¿Cuál partido? 1º persona,Escala
+tab1c_s1,80, TAB1c. Me podría indicar el sexo  1º persona,Escala
+tab1c_e1,81, TAB1c. Me podría indicar  la edad aproximada 1º persona,Escala
+tab1a_2,82, TAB1a. ¿Qué relación tiene con... ? 2º persona,Escala
+tab1b_2,83, TAB1b.  ¿A cuál de estas organizaciones pertenece ...? 2º persona,Escala
+tab1b23,84, TAB1b.  ¿Cuál asociación? 2º persona,Escala
+tab1b26,85, TAB1b.  ¿Cuál partido?  2º persona,Escala
+tab1c_s2,86, TAB1c. Me podría indicar el sexo  2º persona,Escala
+tab1c_e2,87, TAB1c. Me podría indicar  la edad aproximada 2º persona,Escala
+tab1a_3,88, TAB1a. ¿Qué relación tiene con... ? 3º persona,Escala
+tab1b_3,89, TAB1b.  ¿A cuál de estas organizaciones pertenece ...? 3º persona,Escala
+tab1b33,90, TAB1b.  ¿Cuál asociación? 3º persona,Escala
+tab1b36,91, TAB1b.  ¿Cuál partido?  3º persona,Escala
+tab1c_s3,92, TAB1c. Me podría indicar el sexo  3º persona,Escala
+tab1c_e3,93, TAB1c. Me podría indicar  la edad aproximada 3º persona,Escala
+gen2,94, GEN2. ¿Es usted una persona a la que la gente de su comunidad acude para contactar a algún político?,Escala
+gen2a,95, GEN2a. ¿Conoce personalmente a alguien que pueda su vez contactar con algún líder político de su comunidad?,Escala
+gen2a_1,96, GEN2. ¿Me puede indicar sus iniciales o seudónimo? 1ª persona,Nominal
+g2a_1,97, G2a. ¿Es la misma persona que mencionó? 1 persona,Escala
+gen2a_2,98, GEN2. ¿Me puede indicar sus iniciales o seudónimo? 2ª persona,Nominal
+g2a_2,99, G2a. ¿Es la misma persona que mencionó? 2 persona,Escala
+gen2a_3,100, GEN2. ¿Me puede indicar sus iniciales o seudónimo? 3ª persona,Nominal
+g2a_3,101, G2a. ¿Es la misma persona que mencionó? 3 persona,Escala
+gen2b,102, GEN2b. O ¿alguno de sus conocidos puede a su vez contactar con alguien que conozca un líder político?,Escala
+gen2b_1,103, GEN2b. ¿Me puede indicar sus iniciales o seudónimo? 1ª persona,Nominal
+g2b_1,104, G2b. ¿Es la misma persona que mencionó? 1 persona,Escala
+gen2b_2,105, GEN2b. ¿Me puede indicar sus iniciales o seudónimo? 2ª persona,Nominal
+g2b_2,106, G2b. ¿Es la misma persona que mencionó? 2 persona,Escala
+gen2b_3,107, GEN2b. ¿Me puede indicar sus iniciales o seudónimo? 3ª persona,Nominal
+g2b_3,108, G2b. ¿Es la misma persona que mencionó? 3 persona,Escala
+tab2a_1,109, TAB2a. ¿Qué relación tiene con... ? 1º persona,Escala
+tab2b_1,110, TAB2b.  ¿A cuál de estas organizaciones pertenece ...? 1º persona,Escala
+tab2b13,111, TAB2b.  ¿Cuál asociación? 1º persona,Escala
+tab2b16,112, TAB2b.  ¿Cuál partido? 1º persona,Escala
+tab2c_s1,113, TAB2c. Me podría indicar el sexo  1º persona,Escala
+tab2c_e1,114, TAB2c. Me podría indicar  la edad aproximada 1º persona,Escala
+tab2a_2,115, TAB2a. ¿Qué relación tiene con... ? 2º persona,Escala
+tab2b_2,116, TAB2b.  ¿A cuál de estas organizaciones pertenece ...? 2º persona,Escala
+tab2b23,117, TAB2b.  ¿Cuál asociación?2º persona,Escala
+tab2b26,118, TAB2b.  ¿Cuál partido? 2º persona,Escala
+tab2c_s2,119, TAB2c. Me podría indicar el sexo  2º persona,Escala
+tab2c_e2,120, TAB2c. Me podría indicar  la edad aproximada 2º persona,Escala
+tab2a_3,121, TAB2a. ¿Qué relación tiene con... ? 3º persona,Escala
+tab2b_3,122, TAB2b.  ¿A cuál de estas organizaciones pertenece ...? 3º persona,Escala
+tab2b33,123, TAB2b.  ¿Cuál asociación?3º persona,Escala
+tab2b36,124, TAB2b.  ¿Cuál partido? 3º persona,Escala
+tab2c_s3,125, TAB2c. Me podría indicar el sexo  3º persona,Escala
+tab2c_e3,126, TAB2c. Me podría indicar  la edad aproximada 3º persona,Escala
+gen3,127," GEN3. ¿Es usted alguien que la gente busca para que le ayude a presentar un proyecto ante el gobierno de su comunidad, estado, país?",Escala
+gen3a,128, GEN3a. ¿Puede usted contactar personalmente  a alguien que le ayude a presentar un proyecto ante el gobierno?,Escala
+gen3a_1,129, GEN3. ¿Me puede indicar sus iniciales o seudónimo? 1ª persona,Nominal
+g3a_1,130, G3a. ¿Es la misma persona que mencionó? 1ª  persona,Escala
+gen3a_2,131, GEN3. ¿Me puede indicar sus iniciales o seudónimo? 2ª persona,Nominal
+g3a_2,132, G3a. ¿Es la misma persona que mencionó? 2ª  persona,Escala
+gen3a_3,133, GEN3. ¿Me puede indicar sus iniciales o seudónimo? 3ª persona,Nominal
+g3a_3,134, G3a. ¿Es la misma persona que mencionó? 3ª  persona,Escala
+gen3b,135, GEN3b. O ¿alguno de sus conocidos lo puede a su vez contactar con alguien que le ayude a presentar un proyecto ante el gobierno,Escala
+gen3b_1,136, GEN3. ¿Me puede indicar sus iniciales o seudónimo? 1ª persona,Nominal
+g3b_1,137, G3b. ¿Es la misma persona que mencionó? 1ª  persona,Escala
+gen3b_2,138, GEN3. ¿Me puede indicar sus iniciales o seudónimo? 2ª persona,Nominal
+g3b_2,139, G3b. ¿Es la misma persona que mencionó? 2ª  persona,Escala
+gen3b_3,140, GEN3. ¿Me puede indicar sus iniciales o seudónimo? 3ª persona,Nominal
+g3b_3,141, G3b. ¿Es la misma persona que mencionó? 3ª  persona,Escala
+tab3a_1,142, TAB3a. ¿Qué relación tiene con... ? 1º persona,Escala
+tab3b_1,143, TAB3b.  ¿A cuál de estas organizaciones pertenece ...? 1º persona,Escala
+tab3b13,144, TAB3b.  ¿Cuál asociación? 1º persona,Escala
+tab3b16,145, TAB3b.  ¿Cuál partido? 1º persona,Escala
+tab3c_s1,146, TAB3c. Me podría indicar el sexo  1º persona,Escala
+tab3c_e1,147, TAB3c. Me podría indicar  la edad aproximada 1º persona,Escala
+tab3a_2,148, TAB3a. ¿Qué relación tiene con... ? 2º persona,Escala
+tab3b_2,149, TAB3b.  ¿A cuál de estas organizaciones pertenece ...? 2º persona,Escala
+tab3b23,150, TAB3b.  ¿Cuál asociación?2º persona,Escala
+tab3b26,151, TAB3b.  ¿Cuál partido? 2º persona,Escala
+tab3c_s2,152, TAB3c. Me podría indicar el sexo  2º persona,Escala
+tab3c_e2,153, TAB3c. Me podría indicar  la edad aproximada 2º persona,Escala
+tab3a_3,154, TAB3a. ¿Qué relación tiene con... ? 3º persona,Escala
+tab3b_3,155, TAB3b.  ¿A cuál de estas organizaciones pertenece ...? 3º persona,Escala
+tab3b33,156, TAB3b.  ¿Cuál asociación?3º persona,Escala
+tab3b36,157, TAB3b.  ¿Cuál partido? 3º persona,Escala
+tab3c_s3,158, TAB3c. Me podría indicar el sexo  3º persona,Escala
+tab3c_e3,159, TAB3c. Me podría indicar  la edad aproximada 3º persona,Escala
+gen4,160, GEN4. ¿Es usted alguien que en el último año se ha organizado con otras personas para hacer algo por su colonia?,Escala
+gen4a,161, GEN4a. ¿Podría mencionar las iniciales o apodos de tres personas que hayan sido las más importantes para realizar estas acciones conjuntas?,Escala
+gen4a_1,162, GEN4. ¿Me puede indicar sus iniciales o seudónimo? 1ª persona,Nominal
+g4a_1,163, G4a. ¿Es la misma persona que mencionó? 1,Escala
+gen4a_2,164, GEN4. ¿Me puede indicar sus iniciales o seudónimo? 2ª persona,Nominal
+g4a_2,165, G4a. ¿Es la misma persona que mencionó? 2,Escala
+gen4a_3,166, GEN4. ¿Me puede indicar sus iniciales o seudónimo? 3ª persona,Nominal
+g4a_3,167, G4a. ¿Es la misma persona que mencionó? 3,Escala
+tab4a_1,168, TAB4a. ¿Qué relación tiene con... ? 1º persona,Escala
+tab4b_1,169, TAB4b.  ¿A cuál de estas organizaciones pertenece ...? 1º persona,Escala
+tab4b13,170, TAB4b.  ¿Cuál asociación? 1º persona,Escala
+tab4b16,171, TAB4b.  ¿Cuál partido? 1º persona,Escala
+tab4c_s1,172, TAB4c. Me podría indicar el sexo  1º persona,Escala
+tab4c_e1,173, TAB4c. Me podría indicar  la edad aproximada 1º persona,Escala
+tab4a_2,174, TAB4a. ¿Qué relación tiene con... ? 2º persona,Escala
+tab4b_2,175, TAB4b.  ¿A cuál de estas organizaciones pertenece ...? 2º persona,Escala
+tab4b23,176, TAB4b.  ¿Cuál asociación?2º persona,Escala
+tab4b26,177, TAB4b.  ¿Cuál partido? 2º persona,Escala
+tab4c_s2,178, TAB4c. Me podría indicar el sexo  2º persona,Escala
+tab4c_e2,179, TAB4c. Me podría indicar  la edad aproximada 2º persona,Escala
+tab4a_3,180, TAB4a. ¿Qué relación tiene con... ? 3º persona,Escala
+tab4b_3,181, TAB4b.  ¿A cuál de estas organizaciones pertenece ...? 3º persona,Escala
+tab4b33,182, TAB4b.  ¿Cuál asociación?3º persona,Escala
+tab4b36,183, TAB4b.  ¿Cuál partido? 3º persona,Escala
+tab4c_s3,184, TAB4c. Me podría indicar el sexo  3º persona,Escala
+tab4c_e3,185, TAB4c. Me podría indicar  la edad aproximada 3º persona,Escala
+gen5_1,186," GEN5.Nombre de las personas mencionadas en los cuatro generadores anteriores SIN REPETIR , 1º persona",Nominal
+gen5_2,187," GEN5.Nombre de las personas mencionadas en los cuatro generadores anteriores SIN REPETIR , 2º persona",Nominal
+gen5_3,188," GEN5.Nombre de las personas mencionadas en los cuatro generadores anteriores SIN REPETIR , 3º persona",Nominal
+gen5_4,189," GEN5.Nombre de las personas mencionadas en los cuatro generadores anteriores SIN REPETIR , 4º persona",Nominal
+gen5_5,190," GEN5.Nombre de las personas mencionadas en los cuatro generadores anteriores SIN REPETIR , 5º persona",Nominal
+gen5_6,191," GEN5.Nombre de las personas mencionadas en los cuatro generadores anteriores SIN REPETIR , 6º persona",Nominal
+gen5_7,192," GEN5.Nombre de las personas mencionadas en los cuatro generadores anteriores SIN REPETIR , 7º persona",Nominal
+gen5_8,193," GEN5.Nombre de las personas mencionadas en los cuatro generadores anteriores SIN REPETIR , 8º persona",Nominal
+gen5_9,194," GEN5.Nombre de las personas mencionadas en los cuatro generadores anteriores SIN REPETIR , 9º persona",Nominal
+gen5_1_2,195," GEN5. ¿Quién se conoce entre si? 1_2 fila 1 , columna 2",Escala
+gen5_1_3,196," GEN5. ¿Quién se conoce entre si? 1_3 fila 1 , columna 3",Escala
+gen5_1_4,197," GEN5. ¿Quién se conoce entre si? 1_4 fila 1 , columna 4",Escala
+gen5_1_5,198," GEN5. ¿Quién se conoce entre si? 1_5 fila 1 , columna 5",Escala
+gen5_1_6,199," GEN5. ¿Quién se conoce entre si? 1_6 fila 1 , columna 6",Escala
+gen5_1_7,200," GEN5. ¿Quién se conoce entre si? 1_7 fila 1 , columna 7",Escala
+gen5_1_8,201," GEN5. ¿Quién se conoce entre si? 1_8 fila 1 , columna 8",Escala
+gen5_1_9,202," GEN5. ¿Quién se conoce entre si? 1_9 fila 1 , columna 9",Escala
+gen5_2_3,203," GEN5. ¿Quién se conoce entre si? 2_3 fila 2 , columna 3",Escala
+gen5_2_4,204," GEN5. ¿Quién se conoce entre si? 2_4 fila 2 , columna 4",Escala
+gen5_2_5,205," GEN5. ¿Quién se conoce entre si? 2_5 fila 2 , columna 5",Escala
+gen5_2_6,206," GEN5. ¿Quién se conoce entre si? 2_6 fila 2 , columna 6",Escala
+gen5_2_7,207," GEN5. ¿Quién se conoce entre si? 2_7 fila 2 , columna 7",Escala
+gen5_2_8,208," GEN5. ¿Quién se conoce entre si? 2_8 fila 2 , columna 8",Escala
+gen5_2_9,209," GEN5. ¿Quién se conoce entre si? 2_9 fila 2 , columna 9",Escala
+gen5_3_4,210," GEN5. ¿Quién se conoce entre si? 3_4 fila 3 , columna 4",Escala
+gen5_3_5,211," GEN5. ¿Quién se conoce entre si? 3_5 fila 3 , columna 5",Escala
+gen5_3_6,212," GEN5. ¿Quién se conoce entre si? 3_6 fila 3 , columna 6",Escala
+gen5_3_7,213," GEN5. ¿Quién se conoce entre si? 3_7 fila 3 , columna 7",Escala
+gen5_3_8,214," GEN5. ¿Quién se conoce entre si? 3_8 fila 3 , columna 8",Escala
+gen5_3_9,215," GEN5. ¿Quién se conoce entre si? 3_9 fila 3 , columna 9",Escala
+gen5_4_5,216," GEN5. ¿Quién se conoce entre si? 4_5  fila 4 , columna 5",Escala
+gen5_4_6,217," GEN5. ¿Quién se conoce entre si? 4_6  fila 4 , columna 6",Escala
+gen5_4_7,218," GEN5. ¿Quién se conoce entre si? 4_7 fila 4 , columna 7",Escala
+gen5_4_8,219," GEN5. ¿Quién se conoce entre si? 4_8 fila 4 , columna 8",Escala
+gen5_4_9,220," GEN5. ¿Quién se conoce entre si? 4_9 fila 4 , columna 9",Escala
+gen5_5_6,221," GEN5. ¿Quién se conoce entre si? 5_6  fila 5 , columna 6",Escala
+gen5_5_7,222," GEN5. ¿Quién se conoce entre si? 5_7  fila 5 , columna 7",Escala
+gen5_5_8,223," GEN5. ¿Quién se conoce entre si? 5_8  fila 5 , columna 8",Escala
+gen5_5_9,224," GEN5. ¿Quién se conoce entre si? 5_9  fila 5 , columna 9",Escala
+gen5_6_7,225," GEN5. ¿Quién se conoce entre si? 6_7  fila 6, columna 7",Escala
+gen5_6_8,226," GEN5. ¿Quién se conoce entre si? 6_8   fila 6, columna 8",Escala
+gen5_6_9,227," GEN5. ¿Quién se conoce entre si? 6_9  fila 6, columna 9",Escala
+gen5_7_8,228," GEN5. ¿Quién se conoce entre si? 7_8  fila 7, columna 8",Escala
+gen5_7_9,229," GEN5. ¿Quién se conoce entre si? 7_9  fila 7, columna 9",Escala
+gen5_8_9,230," GEN5. ¿Quién se conoce entre si? 8_9  fila 8, columna 9",Escala
+p21_1,231," P21.  Por lo que usted ha visto, dígame si siempre sucede, muchas veces sucede, a veces sucede, pocas veces sucede o nunca sucede que  Se puede decir libremente lo que uno piensa",Escala
+p21_2,232," P21.  Por lo que usted ha visto, dígame si siempre sucede, muchas veces sucede, a veces sucede, pocas veces sucede o nunca sucede que  Se puede votar libremente por el partido que se quiera",Escala
+p21_3,233," P21.  Por lo que usted ha visto, dígame si siempre sucede, muchas veces sucede, a veces sucede, pocas veces sucede o nunca sucede que  Se puede practicar de manera pública la religión que uno prefiera",Escala
+p22,234," P22. Independientemente del partido por el que usted vota, ¿usted normalmente se considera panista, priísta, perredista, verde-ecologista, petista, de Movimiento Ciudadano, del partido Nueva Alianza, o de otro partido?",Escala
+p23,235," P23. Como usted sabe, el año pasado (2012) hubo elecciones para elegir Presidente de la República, Senadores y Diputados Federales.  ¿usted votó en las pasadas elecciones del 1º de julio de 2012 para diputados federales?",Escala
+p24,236," P24. En las elecciones federales del año pasado (1º de julio de 2012)  para diputados federales, ¿por cuál partido votó usted?",Escala
+p26,237," P26. Si tuviera que describir cómo funciona la democracia en México, ¿cuál de las siguientes frases utilizaría?",Escala
+p27_1,238," P27. Usted ha, o no ha  Platicado con otras personas sobre temas políticos",Escala
+p27_2,239," P27. Usted ha, o no ha  Intentado convencer a sus amigos para que voten por los candidatos que usted cree que son los mejores",Escala
+p27_3,240," P27. Usted ha, o no ha  Colaborado en las actividades de los partidos políticos previo y durante las campañas electorales",Escala
+p27_4,241," P27. Usted ha, o no ha  Leído o compartido información política por alguna red social de la web como Twitter o Facebook",Escala
+p27_5,242," P27. Usted ha, o no ha  Asistido a reuniones del cabildo municipal o delegacional",Escala
+p27_6,243," P27. Usted ha, o no ha  Firmado peticiones o documentos en señal de protesta",Escala
+p27_7,244," P27. Usted ha, o no ha  Participado en manifestaciones o protestas públicas",Escala
+p27_8,245," P27. Usted ha, o no ha  Tomado o bloqueado lugares o instalaciones públicas (calles, carreteras, monumentos, edificios).",Escala
+p27_9,246," P27. Usted ha, o no ha  Participado en una huelga",Escala
+p28_1,247, P28. ¿Con qué frecuencia realiza esta(s) actividad(es)? Platicado con otras personas sobre temas políticos,Escala
+p28_2,248, P28. ¿Con qué frecuencia realiza esta(s) actividad(es)? Intentado convencer a sus amigos para que voten por los candidatos que usted cree que son los mejores,Escala
+p28_3,249, P28. ¿Con qué frecuencia realiza esta(s) actividad(es)? Colaborado en las actividades de los partidos políticos previo y durante las campañas electorales,Escala
+p28_4,250, P28. ¿Con qué frecuencia realiza esta(s) actividad(es)? Leído o compartido información política por alguna red social de la web como Twitter o Facebook,Escala
+p28_5,251, P28. ¿Con qué frecuencia realiza esta(s) actividad(es)? Asistido a reuniones del cabildo municipal o delegacional,Escala
+p28_6,252, P28. ¿Con qué frecuencia realiza esta(s) actividad(es)? Firmado peticiones o documentos en señal de protesta,Escala
+p28_7,253, P28. ¿Con qué frecuencia realiza esta(s) actividad(es)? Participado en manifestaciones o protestas públicas,Escala
+p28_8,254," P28. ¿Con qué frecuencia realiza esta(s) actividad(es)? Tomado o bloqueado lugares o instalaciones públicas (calles, carreteras, monumentos, edificios).",Escala
+p28_9,255, P28. ¿Con qué frecuencia realiza esta(s) actividad(es)? Participado en una huelga,Escala
+p29_1,256, P29.  ¿Cuándo usted  Platicado con otras personas sobre temas políticos obtuvo o no obtuvo el resultado deseado?,Escala
+p29_2,257, P29.  ¿Cuándo usted  Intentado convencer a sus amigos para que voten por los candidatos que usted cree que son los mejores obtuvo o no obtuvo el resultado deseado?,Escala
+p29_3,258, P29.  ¿Cuándo usted  Colaborado en las actividades de los partidos políticos previo y durante las campañas electorales obtuvo o no obtuvo el resultado deseado?,Escala
+p29_4,259, P29.  ¿Cuándo usted  Leído o compartido información política por alguna red social de la web como Twitter o Facebook obtuvo o no obtuvo el resultado deseado?,Escala
+p29_5,260, P29.  ¿Cuándo usted  Asistido a reuniones del cabildo municipal o delegacional obtuvo o no obtuvo el resultado deseado?,Escala
+p29_6,261, P29.  ¿Cuándo usted  Firmado peticiones o documentos en señal de protesta obtuvo o no obtuvo el resultado deseado?,Escala
+p29_7,262, P29.  ¿Cuándo usted  Participado en manifestaciones o protestas públicas obtuvo o no obtuvo el resultado deseado?,Escala
+p29_8,263," P29.  ¿Cuándo usted  Tomado o bloqueado lugares o instalaciones públicas (calles, carreteras, monumentos, edificios). obtuvo o no obtuvo el resultado deseado?",Escala
+p29_9,264, P29.  ¿Cuándo usted  Participado en una huelga  obtuvo o no obtuvo el resultado deseado?,Escala
+p30,265," P30. ¿Cuál de las siguientes frases se acercan más a lo que usted piensa respecto a los programas sociales (como Oportunidades, Procampo, Seguro Popular, 70 y más, etc.)?",Escala
+p31,266, P31. ¿Usted es o ha sido beneficiario de algún programa de ayuda social del gobierno?,Escala
+p32,267, P32. ¿Y a usted le pidieron algo a cambio para poder entrar o permanecer en algún programa de ayuda social?,Escala
+p33,268," P33. Por lo que usted sabe o ha escuchado, ¿qué significa ONU?",Escala
+p34,269," P34. Por lo que usted sabe o ha escuchado, ¿Cuáles son las Cámaras que componen el Congreso de la Unión en México?",Escala
+p35,270," P35. Por lo que usted sabe o ha escuchado, ¿cuántos diputados hay en la Cámara de Diputados en México?",Escala
+p36,271, P36.  ¿Usted conoce personalmente a alguien que haya recibido dinero o regalos a cambio de votar por algún partido?,Escala
+p36_2,272, P36. ¿A cuántas personas?,Escala
+p37_1,273," P37. ¿En el último año, usted ha hecho o no ha hecho alguna de las siguientes acciones? 1 Ha donado sangre",Escala
+p37_2,274," P37. ¿En el último año, usted ha hecho o no ha hecho alguna de las siguientes acciones? 2 Ha dado dinero a la Cruz Roja",Escala
+p37_3,275," P37. ¿En el último año, usted ha hecho o no ha hecho alguna de las siguientes acciones? 3 Ha donado alimentos, medicina, ropa en caso de un desastre",Escala
+p37_4,276," P37. ¿En el último año, usted ha hecho o no ha hecho alguna de las siguientes acciones? 4 Ha participado como voluntario en alguna actividad a beneficio de la comunidad",Escala
+p37_5,277," P37. ¿En el último año, usted ha hecho o no ha hecho alguna de las siguientes acciones? 5 Ha ayudado a algún desconocido",Escala
+p37_6,278," P37. ¿En el último año, usted ha hecho o no ha hecho alguna de las siguientes acciones? 6 Ha enviado dinero u objetos a algún programa de televisión o radio para una buena causa",Escala
+p37_7,279," P37. ¿En el último año, usted ha hecho o no ha hecho alguna de las siguientes acciones? 7 Ha hecho donativos o prestado ayuda a alguna organización social (agrupación de ciudadanos)",Escala
+p38_1,280, P38. ¿Está usted de acuerdo o en desacuerdo?  Los ciudadanos están en su derecho cuando cierran y bloquean calles o carreteras como forma de protesta,Escala
+p38_2,281, P38. ¿Está usted de acuerdo o en desacuerdo?  Los ciudadanos están en su derecho cuando ocupan instalaciones o monumentos públicos como forma de protesta,Escala
+p39_1,282," P39. Por favor dígame si usted es miembro activo, perteneció anteriormente o nunca ha pertenecido a las siguientes agrupaciones Un sindicato",Escala
+p39_2,283," P39. Por favor dígame si usted es miembro activo, perteneció anteriormente o nunca ha pertenecido a las siguientes agrupaciones Un grupo estudiantil",Escala
+p39_3,284," P39. Por favor dígame si usted es miembro activo, perteneció anteriormente o nunca ha pertenecido a las siguientes agrupaciones Una asociación profesional (médicos, ingenieros, contadores, etc.)",Escala
+p39_4,285," P39. Por favor dígame si usted es miembro activo, perteneció anteriormente o nunca ha pertenecido a las siguientes agrupaciones Un partido político",Escala
+p39_5,286," P39. Por favor dígame si usted es miembro activo, perteneció anteriormente o nunca ha pertenecido a las siguientes agrupaciones Una organización religiosa",Escala
+p39_6,287," P39. Por favor dígame si usted es miembro activo, perteneció anteriormente o nunca ha pertenecido a las siguientes agrupaciones Una organización deportiva",Escala
+p39_7,288," P39. Por favor dígame si usted es miembro activo, perteneció anteriormente o nunca ha pertenecido a las siguientes agrupaciones Una organización cultural (música, cine, teatro, etc.)",Escala
+p39_8,289," P39. Por favor dígame si usted es miembro activo, perteneció anteriormente o nunca ha pertenecido a las siguientes agrupaciones Una asociación de padres de familia",Escala
+p39_9,290," P39. Por favor dígame si usted es miembro activo, perteneció anteriormente o nunca ha pertenecido a las siguientes agrupaciones Una asociación de voluntariado o beneficencia (como ayuda a discapacitados, ancianos o personas de pocos recursos)",Escala
+p39_10,291," P39. Por favor dígame si usted es miembro activo, perteneció anteriormente o nunca ha pertenecido a las siguientes agrupaciones Una organización de protección de derechos humanos",Escala
+p39_11,292," P39. Por favor dígame si usted es miembro activo, perteneció anteriormente o nunca ha pertenecido a las siguientes agrupaciones Una organización ambientalista",Escala
+p39_12,293," P39. Por favor dígame si usted es miembro activo, perteneció anteriormente o nunca ha pertenecido a las siguientes agrupaciones Una asociación vecinal o de condóminos",Escala
+p40,294, P40. ¿Diría usted que se puede confiar o no se puede confiar en la mayoría de las personas?,Escala
+p41_1,295, P41.  Ahora le voy a mencionar el nombre de algunas instituciones o grupos sociales. Por favor dígame ¿cuánta confianza tiene en 1 Maestros,Escala
+p41_2,296, P41.  Ahora le voy a mencionar el nombre de algunas instituciones o grupos sociales. Por favor dígame ¿cuánta confianza tiene en 2 Empresarios,Escala
+p41_3,297, P41.  Ahora le voy a mencionar el nombre de algunas instituciones o grupos sociales. Por favor dígame ¿cuánta confianza tiene en 3 Jueces,Escala
+p41_4,298, P41.  Ahora le voy a mencionar el nombre de algunas instituciones o grupos sociales. Por favor dígame ¿cuánta confianza tiene en 4 Sindicatos,Escala
+p41_5,299, P41.  Ahora le voy a mencionar el nombre de algunas instituciones o grupos sociales. Por favor dígame ¿cuánta confianza tiene en 5 Policía,Escala
+p41_6,300, P41.  Ahora le voy a mencionar el nombre de algunas instituciones o grupos sociales. Por favor dígame ¿cuánta confianza tiene en 6 Organizaciones no gubernamentales (como las ambientales o de Derechos Humanos),Escala
+p41_7,301, P41.  Ahora le voy a mencionar el nombre de algunas instituciones o grupos sociales. Por favor dígame ¿cuánta confianza tiene en 7 Gobierno Federal,Escala
+p41_8,302, P41.  Ahora le voy a mencionar el nombre de algunas instituciones o grupos sociales. Por favor dígame ¿cuánta confianza tiene en 8 Ejército,Escala
+p41_9,303, P41.  Ahora le voy a mencionar el nombre de algunas instituciones o grupos sociales. Por favor dígame ¿cuánta confianza tiene en 9 Iglesias,Escala
+p41_10,304, P41.  Ahora le voy a mencionar el nombre de algunas instituciones o grupos sociales. Por favor dígame ¿cuánta confianza tiene en 10 Partidos políticos,Escala
+p41_11,305, P41.  Ahora le voy a mencionar el nombre de algunas instituciones o grupos sociales. Por favor dígame ¿cuánta confianza tiene en 11 Diputados,Escala
+p41_12,306, P41.  Ahora le voy a mencionar el nombre de algunas instituciones o grupos sociales. Por favor dígame ¿cuánta confianza tiene en 12 El IFE,Escala
+p41_17,307, P41.  Ahora le voy a mencionar el nombre de algunas instituciones o grupos sociales. Por favor dígame ¿cuánta confianza tiene en 17 Organizaciones vecinales,Escala
+p41_18,308, P41.  Ahora le voy a mencionar el nombre de algunas instituciones o grupos sociales. Por favor dígame ¿cuánta confianza tiene en 18 Medios de comunicación,Escala
+p41_20,309, P41.  Ahora le voy a mencionar el nombre de algunas instituciones o grupos sociales. Por favor dígame ¿cuánta confianza tiene en 20 Gobierno de su estado/Distrito Federal,Escala
+p41_21,310, P41.  Ahora le voy a mencionar el nombre de algunas instituciones o grupos sociales. Por favor dígame ¿cuánta confianza tiene en 21 Gobierno de su municipio/delegación,Escala
+p41_24,311, P41.  Ahora le voy a mencionar el nombre de algunas instituciones o grupos sociales. Por favor dígame ¿cuánta confianza tiene en 24 Organizaciones de ayuda en adicciones (como AA),Escala
+p42_1,312," P42. Para cada una de estas frases, por favor dígame, ¿está usted de acuerdo o en desacuerdo? Los políticos se preocupan mucho por lo que piensa la gente como yo",Escala
+p42_2,313," P42. Para cada una de estas frases, por favor dígame, ¿está usted de acuerdo o en desacuerdo? La gente como yo tiene influencia  sobre lo que hace el gobierno",Escala
+p43,314, P43. ¿Estaría de acuerdo o en desacuerdo en que se permitiera salir en televisión a una persona que va a decir cosas que están en contra de su forma de pensar?,Escala
+p44,315, P44. En lo relativo a sistema político de un país ¿cuál de las siguientes frases que se muestran en la tarjeta se acerca más a lo que usted piensa?,Escala
+p45_1,316," P45. Pensando en lo que sucede normalmente en nuestro país, ¿usted cree que se discrimina, se trata mal o de manera injusta a las personas por su Apariencia física ?",Escala
+p45_2,317," P45. Pensando en lo que sucede normalmente en nuestro país, ¿usted cree que se discrimina, se trata mal o de manera injusta a las personas por su Clase social ?",Escala
+p45_3,318," P45. Pensando en lo que sucede normalmente en nuestro país, ¿usted cree que se discrimina, se trata mal o de manera injusta a las personas por su Color de piel ?",Escala
+p45_4,319," P45. Pensando en lo que sucede normalmente en nuestro país, ¿usted cree que se discrimina, se trata mal o de manera injusta a las personas por su Preferencias sexuales ?",Escala
+p45_5,320," P45. Pensando en lo que sucede normalmente en nuestro país, ¿usted cree que se discrimina, se trata mal o de manera injusta a las personas por ser mujer ?",Escala
+p45_6,321," P45. Pensando en lo que sucede normalmente en nuestro país, ¿usted cree que se discrimina, se trata mal o de manera injusta a las personas por su Preferencia política ?",Escala
+p45_7,322," P45. Pensando en lo que sucede normalmente en nuestro país, ¿usted cree que se discrimina, se trata mal o de manera injusta a las personas por su Creencia religiosa ?",Escala
+p45_8,323," P45. Pensando en lo que sucede normalmente en nuestro país, ¿usted cree que se discrimina, se trata mal o de manera injusta a las personas por su Por  ser indígena ?",Escala
+p46_1,324," P46. Considerando lo que le ha pasado en los últimos años, ¿alguna vez usted se ha sentido discriminado o ha sido tratado mal o de manera injusta por su  Apariencia física ?",Escala
+p46_2,325," P46. Considerando lo que le ha pasado en los últimos años, ¿alguna vez usted se ha sentido discriminado o ha sido tratado mal o de manera injusta por su  Clase social ?",Escala
+p46_3,326," P46. Considerando lo que le ha pasado en los últimos años, ¿alguna vez usted se ha sentido discriminado o ha sido tratado mal o de manera injusta por su  Color de piel ?",Escala
+p46_4,327," P46. Considerando lo que le ha pasado en los últimos años, ¿alguna vez usted se ha sentido discriminado o ha sido tratado mal o de manera injusta por su  Preferencias sexuales ?",Escala
+p46_5,328," P46. Considerando lo que le ha pasado en los últimos años, ¿alguna vez usted se ha sentido discriminado o ha sido tratado mal o de manera injusta por ser mujer ?",Escala
+p46_6,329," P46. Considerando lo que le ha pasado en los últimos años, ¿alguna vez usted se ha sentido discriminado o ha sido tratado mal o de manera injusta por su  Preferencia política ?",Escala
+p46_7,330," P46. Considerando lo que le ha pasado en los últimos años, ¿alguna vez usted se ha sentido discriminado o ha sido tratado mal o de manera injusta por su  Creencia religiosa ?",Escala
+p46_8,331," P46. Considerando lo que le ha pasado en los últimos años, ¿alguna vez usted se ha sentido discriminado o ha sido tratado mal o de manera injusta por su  Por  ser indígena ?",Escala
+p47,332, P47. ¿Con cuál de las siguientes frases está usted más de acuerdo:,Escala
+s1,333, S1. Sexo,Escala
+s2,334," S2. Por favor, dígame ¿Qué edad tiene usted?",Escala
+s3,335, S3. ¿Hasta qué año escolar estudió usted?,Escala
+s4,336, S4. ¿Cuál es su estado civil?,Escala
+s5,337, S5. ¿Tiene usted empleo actualmente?,Escala
+s6,338, S6. ¿Cuántas horas a la semana trabaja?,Escala
+s7,339, S7. ¿Trabaja usted en el sector público o en el privado?,Escala
+s8,340," S8. ¿Cuál es su ocupación, a qué se dedica usted?",Escala
+s8texto,341," S8. ¿Cuál es su ocupación, a qué se dedica usted? Textual",Nominal
+s9,342," S9. Si no tiene empleo, usted es:",Escala
+s10,343," S10. Sumando los ingresos de todas las personas que trabajan en su casa,  ¿en qué letra ubicaría el ingreso mensual de este hogar?",Escala
+s11,344, S11. ¿Usted o su familia son beneficiarios de alguno o algunos programas sociales?,Escala
+s12,345, S12. ¿Tiene hijos?,Escala
+s12_2,346, S12. ¿cuántos?,Escala
+s13,347, S13. ¿Tiene hijos menores de 18 años?,Escala
+s14,348, S14. ¿Usted se considera de clase…?,Escala
+s15,349, S15. ¿A cuál religión o iglesia se siente más cercano?,Escala
+s16,350, S16. ¿Con qué frecuencia atiende a servicios religiosos?,Escala
+s17,351," S17. ¿Usted se considera una persona blanca, mestiza, indígena, negra, mulata u otra?",Escala
+s18,352, S18. ¿Cuál es su lengua materna o el primer idioma que habló de pequeño en su casa?,Escala
+s19,353, S19. ¿Usted usa cotidianamente computadoras en su casa o trabajo?,Escala
+s20,354, S20. ¿Usted navega por internet de forma cotidiana?,Escala
+s21,355, S21. ¿Usted tiene teléfono celular?,Escala
+s22_1,356," S22. Para finalizar, ¿podría por favor decirme si en su casa tiene…? 1 Televisor",Escala
+s22_2,357," S22. Para finalizar, ¿podría por favor decirme si en su casa tiene…? 2 Refrigerador (nevera)",Escala
+s22_3,358," S22. Para finalizar, ¿podría por favor decirme si en su casa tiene…? 3 Teléfono convencional / fijo / residencial (no celular)",Escala
+s22_4,359," S22. Para finalizar, ¿podría por favor decirme si en su casa tiene…? 4 Vehículo",Escala
+s22_5,360," S22. Para finalizar, ¿podría por favor decirme si en su casa tiene…? 5 Lavadora de ropa",Escala
+s22_6,361," S22. Para finalizar, ¿podría por favor decirme si en su casa tiene…? 6 Microondas",Escala
+s22_7,362," S22. Para finalizar, ¿podría por favor decirme si en su casa tiene…? 7 Agua potable dentro de la casa",Escala
+s22_8,363," S22. Para finalizar, ¿podría por favor decirme si en su casa tiene…? 8 Cuarto de baño dentro de la casa",Escala
+s22_9,364," S22. Para finalizar, ¿podría por favor decirme si en su casa tiene…? 9 Computadora",Escala
+s22_10,365," S22. Para finalizar, ¿podría por favor decirme si en su casa tiene…? 10 Servicio de internet",Escala
+s22_11,366," S22. Para finalizar, ¿podría por favor decirme si en su casa tiene…? 11 Conexión a la red de saneamiento / desagüe / drenaje",Escala
+z1,367," Z1. Use la paleta de colores, e indique el número que más se acerca al color de piel de la cara del entrevistado:",Nominal
+f12_hr,368, f12. Hora inicio de la entrevista:,Nominal
+f12_min,369, f12. Minutos inicio de la entrevista:,Escala
+z2_hr,370, Z2. Hora fin de la entrevista:,Nominal
+z2_min,371, Z2. Minutos fin de la entrevista:,Escala
+z3_dd,372, Z3. Fecha de la entrevista. Dia,Nominal
+z3_mm,373, Z3. Fecha de la entrevista. Mes,Nominal
+z3_aa,374, Z3. Fecha de la entrevista. Año,Nominal
+z7,375, Z7. Clave de encuestador:,Escala
+z8,376, Z8. Tipo de supervisión,Nominal
+z11,377, Z11. Clave de supervisor:,Escala
+z12_dd,378, Z12. Fecha de la supervisión: Dia,Nominal
+z12_mm,379, Z12. Fecha de la supervisión: Mes,Nominal
+z12_aa,380, Z12. Fecha de la supervisión: Año,Nominal
+REGION,381,Regiones de la muestra,Escala
+estrato_estado,382,Estratos de estados,Escala
+muni_interes,383,Municipios con representatividad,Escala
+factor_m,384,Factor de correción finita,Escala
+conglomerado,385,Conglomerado de la muestra,Escala
+ponde,386,Ponderador Nacional,Escala
+estrato_s,387,Estrato de la muestra,Escala
+bsw1,388,Replicaciones bootstrap,Escala
+bsw2,389,Replicaciones bootstrap,Escala
+bsw3,390,Replicaciones bootstrap,Escala
+bsw4,391,Replicaciones bootstrap,Escala
+bsw5,392,Replicaciones bootstrap,Escala
+bsw6,393,Replicaciones bootstrap,Escala
+bsw7,394,Replicaciones bootstrap,Escala
+bsw8,395,Replicaciones bootstrap,Escala
+bsw9,396,Replicaciones bootstrap,Escala
+bsw10,397,Replicaciones bootstrap,Escala
+bsw11,398,Replicaciones bootstrap,Escala
+bsw12,399,Replicaciones bootstrap,Escala
+bsw13,400,Replicaciones bootstrap,Escala
+bsw14,401,Replicaciones bootstrap,Escala
+bsw15,402,Replicaciones bootstrap,Escala
+bsw16,403,Replicaciones bootstrap,Escala
+bsw17,404,Replicaciones bootstrap,Escala
+bsw18,405,Replicaciones bootstrap,Escala
+bsw19,406,Replicaciones bootstrap,Escala
+bsw20,407,Replicaciones bootstrap,Escala
+bsw21,408,Replicaciones bootstrap,Escala
+bsw22,409,Replicaciones bootstrap,Escala
+bsw23,410,Replicaciones bootstrap,Escala
+bsw24,411,Replicaciones bootstrap,Escala
+bsw25,412,Replicaciones bootstrap,Escala
+bsw26,413,Replicaciones bootstrap,Escala
+bsw27,414,Replicaciones bootstrap,Escala
+bsw28,415,Replicaciones bootstrap,Escala
+bsw29,416,Replicaciones bootstrap,Escala
+bsw30,417,Replicaciones bootstrap,Escala
+bsw31,418,Replicaciones bootstrap,Escala
+bsw32,419,Replicaciones bootstrap,Escala
+bsw33,420,Replicaciones bootstrap,Escala
+bsw34,421,Replicaciones bootstrap,Escala
+bsw35,422,Replicaciones bootstrap,Escala
+bsw36,423,Replicaciones bootstrap,Escala
+bsw37,424,Replicaciones bootstrap,Escala
+bsw38,425,Replicaciones bootstrap,Escala
+bsw39,426,Replicaciones bootstrap,Escala
+bsw40,427,Replicaciones bootstrap,Escala
+bsw41,428,Replicaciones bootstrap,Escala
+bsw42,429,Replicaciones bootstrap,Escala
+bsw43,430,Replicaciones bootstrap,Escala
+bsw44,431,Replicaciones bootstrap,Escala
+bsw45,432,Replicaciones bootstrap,Escala
+bsw46,433,Replicaciones bootstrap,Escala
+bsw47,434,Replicaciones bootstrap,Escala
+bsw48,435,Replicaciones bootstrap,Escala
+bsw49,436,Replicaciones bootstrap,Escala
+bsw50,437,Replicaciones bootstrap,Escala
+bsw51,438,Replicaciones bootstrap,Escala
+bsw52,439,Replicaciones bootstrap,Escala
+bsw53,440,Replicaciones bootstrap,Escala
+bsw54,441,Replicaciones bootstrap,Escala
+bsw55,442,Replicaciones bootstrap,Escala
+bsw56,443,Replicaciones bootstrap,Escala
+bsw57,444,Replicaciones bootstrap,Escala
+bsw58,445,Replicaciones bootstrap,Escala
+bsw59,446,Replicaciones bootstrap,Escala
+bsw60,447,Replicaciones bootstrap,Escala
+bsw61,448,Replicaciones bootstrap,Escala
+bsw62,449,Replicaciones bootstrap,Escala
+bsw63,450,Replicaciones bootstrap,Escala
+bsw64,451,Replicaciones bootstrap,Escala
+bsw65,452,Replicaciones bootstrap,Escala
+bsw66,453,Replicaciones bootstrap,Escala
+bsw67,454,Replicaciones bootstrap,Escala
+bsw68,455,Replicaciones bootstrap,Escala
+bsw69,456,Replicaciones bootstrap,Escala
+bsw70,457,Replicaciones bootstrap,Escala
+bsw71,458,Replicaciones bootstrap,Escala
+bsw72,459,Replicaciones bootstrap,Escala
+bsw73,460,Replicaciones bootstrap,Escala
+bsw74,461,Replicaciones bootstrap,Escala
+bsw75,462,Replicaciones bootstrap,Escala
+bsw76,463,Replicaciones bootstrap,Escala
+bsw77,464,Replicaciones bootstrap,Escala
+bsw78,465,Replicaciones bootstrap,Escala
+bsw79,466,Replicaciones bootstrap,Escala
+bsw80,467,Replicaciones bootstrap,Escala
+bsw81,468,Replicaciones bootstrap,Escala
+bsw82,469,Replicaciones bootstrap,Escala
+bsw83,470,Replicaciones bootstrap,Escala
+bsw84,471,Replicaciones bootstrap,Escala
+bsw85,472,Replicaciones bootstrap,Escala
+bsw86,473,Replicaciones bootstrap,Escala
+bsw87,474,Replicaciones bootstrap,Escala
+bsw88,475,Replicaciones bootstrap,Escala
+bsw89,476,Replicaciones bootstrap,Escala
+bsw90,477,Replicaciones bootstrap,Escala
+bsw91,478,Replicaciones bootstrap,Escala
+bsw92,479,Replicaciones bootstrap,Escala
+bsw93,480,Replicaciones bootstrap,Escala
+bsw94,481,Replicaciones bootstrap,Escala
+bsw95,482,Replicaciones bootstrap,Escala
+bsw96,483,Replicaciones bootstrap,Escala
+bsw97,484,Replicaciones bootstrap,Escala
+bsw98,485,Replicaciones bootstrap,Escala
+bsw99,486,Replicaciones bootstrap,Escala
+bsw100,487,Replicaciones bootstrap,Escala
+Variables del archivo de trabajo,,,

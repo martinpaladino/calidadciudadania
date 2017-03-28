@@ -1,0 +1,253 @@
+---
+title: "Prácticas políticas en México"
+author: "Martín Paladino"
+date: "25 de marzo de 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Levanto librerías.
+
+```{r, librerias}
+library (tidyverse)
+library (stringr)    #Para la función str_sub, str_wrap
+library(lcca)        #Clases latentes
+library (forcats)
+library (knitr)
+library(hrbrthemes)
+```
+
+#Carga datos
+
+```{r, carga}
+basecalidad <- read_csv("C:/Users/mpaladino/Dropbox/calidadciudadania/datos/BaseDura-utf8.csv", 
+                        col_types = cols(edo = col_character(), 
+                                         muni = col_character()))[,1:387]   #Elimino los bootstraps
+diccionario <- read_csv("C:/Users/mpaladino/Dropbox/calidadciudadania/datos/Diccionario2.csv")
+names(diccionario) [1] <- "Variable"
+```
+
+
+#Funciones
+
+```{r, funciones}
+#Selección de variables
+#======================
+
+seleccionar <- function(x){
+  dpselect (x, 
+          gen1, gen1a,         #Es o conoce broker injusticia
+          gen2, gen2a,         #Es o conoce broker político
+          gen3, gen3a,         #Es o conoce broker proyecto
+          gen4, gen4a,         #Es o conoce broker organización comunidad
+          starts_with("p20"),  #Practicas Problemas/soluciones
+          p22,                 #Identificación partidaria
+          p23,                 #Voto 2012
+          p24,                 #Partido voto 2012
+          starts_with("p27_"), #Prácticas políticas
+          p31,                 #Beneficiario programa social
+          p32,                 #Intercambio programa social
+          p36,                 #Conoce compra de votos
+          starts_with("p39"),  #Pertenencia agrupaciones
+          s1,                  #Sexo
+          s2,                  #edad
+          s3,                  #Año escolar
+          s4,                  #Estado civil
+          s5,                  #Empleo
+          s7,                  #Empleo público o privado
+          s8,                  #Categoría ocupacional
+          s11,                 #Usted o su flia son beneficiarios programa
+          s14,                 #Autopercepción de clase
+          s22_7,               #Agua potable
+          s22_8,               #Baño en casa
+          ponde)               #ponderador
+}
+
+#Nombres largos
+#==============
+
+nombres_largos <- function(x){
+  nombres <- diccionario [diccionario$Variable %in% colnames(x),3]$Etiqueta
+  nombres <- gsub("P20. Cuando a usted, a su familia y/o a su comunidad le afecta algún problema ¿alguna vez ha tratado de ", "(*)", nombres)
+  nombres <- gsub("P27. Usted ha, o no ha ", "", nombres)
+  colnames(x) <- nombres
+  return(x)
+}
+
+#Comparar clases
+#===============
+
+comparar_clases_lca <- function(datos, k, formula) {
+  entropy<-function (p) sum(-p*log(p)) #Función para estimar entropía relativa. 
+    tabla_LCA <- data.frame(Modelo=0, BIC=0, Lik_ratio=0, Entropia=0, MenorClase=0) #data.frame vacío. 
+  for(i in 1:k){
+    lc <- poLCA::poLCA(formula, datos, nclass=i, maxiter=1000, 
+                tol=1e-5, na.rm=FALSE,  
+                nrep=8, verbose=F, calc.se=TRUE)
+    tabla_LCA [i,1] <- paste("Modelo", i)
+    tabla_LCA [i,2] <- lc$bic
+    tabla_LCA [i,3] <- lc$Gsq
+    error_prior<-entropy(lc$P)
+    error_post<-mean(apply(lc$posterior,1, entropy),na.rm = TRUE)
+    tabla_LCA [i,4]<-round(((error_prior-error_post) / error_prior),3)
+    tabla_LCA [i,5] <- min(lc$P)*100
+  }
+  return(tabla_LCA)
+}
+```
+
+#Gráficos exploratorios. 
+
+```{r, exploratorios}
+#Gráfico de puntos para diagnóstico. Totales. 
+
+basecalidad %>% 
+  select(.,starts_with("p27_"), starts_with("p20_"), ponde) %>% 
+  mutate_at(vars(starts_with("p27_")), funs(
+            recode(.,`Si ha participado`= "Sí", 
+                   `No ha participado`= "No", 
+                   `Ns/Nc` = "NS/NC"))) %>% 
+  nombres_largos %>% 
+  gather (key, value, -`Ponderador Nacional`) %>% 
+  count(key, value, wt=`Ponderador Nacional`) %>% 
+  filter(value!="No") %>% 
+  ggplot + 
+  geom_point(aes(x=n, y=fct_reorder(str_wrap(key, 60), n), color=value)) +
+  theme_minimal() +
+  #theme_ipsum() +
+  scale_x_comma() +
+  labs(x="Población", 
+       y="Prácticas", 
+       title="Prácticas políticas", 
+       subtitle="Se omiten \"No\"", 
+       caption="Elaboración propia en base a la Encuesta Calidad de la Ciudadanía \n (*) Cuando a usted, a su familia y/o a su comunidad le afecta algún problema ¿alguna vez ha tratado de ...",
+       fill="")
+
+#Porcentual: 
+
+basecalidad %>% 
+  select(.,starts_with("p27_"), starts_with("p20_"), ponde) %>% 
+  mutate_at(vars(starts_with("p27_")), funs(
+            recode(.,`Si ha participado`= "Sí", 
+                   `No ha participado`= "No", 
+                   `Ns/Nc` = "NS/NC"))) %>% 
+  nombres_largos %>% 
+  gather (clave, value, -`Ponderador Nacional`) %>% 
+  count(clave, value, wt=`Ponderador Nacional`) %>% 
+  spread(value, n) %>% 
+  mutate(total=sum(`Sí`, `NS/NC`, No)) %>% 
+  mutate_at(vars(`Sí`, `NS/NC`, No), funs(./total)) %>% 
+  select(-total) %>% 
+  gather(key, value, -clave) %>% 
+  ungroup() %>% 
+  filter(key!="No") %>% 
+  ggplot + 
+  geom_point(aes(x=value, y=fct_reorder(str_wrap(clave, 60), value), color=key)) +
+  theme_minimal() +
+  #theme_ipsum() +
+  scale_x_percent() +
+  labs(x="Población", 
+       y="Prácticas", 
+       title="Prácticas políticas", 
+       subtitle="Se omiten \"No\"", 
+       caption="Elaboración propia en base a la Encuesta Calidad de la Ciudadanía \n (*) Cuando a usted, a su familia y/o a su comunidad le afecta algún problema ¿alguna vez ha tratado de ...",
+       fill="")
+
+```
+
+#Clases latentes.
+1. Buscar óptimo de clases (sin pode) para cada set. 
+2. Ver los sets juntos.
+3. Revisar el problema de los NS/NC ¿Son una clase? ¿Qué pasa cuando los excluyo?
+4. Seleccionar el set de variables y modelar covariando con: 
+4.1. económicas
+4.2. laborales
+4.3. educactivas
+4.4. sociales (agrupaciones, etc.)
+4.5. religiosas
+
+etc.
+```{r todas_explo}
+#Para las prácticas partidario institucionales. 
+
+formula <- cbind(p27_1, p27_2, p27_3, p27_4, p27_5, p27_6, p27_7, p27_8, p27_9)~1
+
+basecalidad %>% 
+  dplyr::select(starts_with("p27_"), ponde) %>%
+  mutate_if(is.character, funs(ifelse(.=="Ns/Nc" | .=="NS/NC", NA, .))) %>% 
+  na.omit() %>% 
+  mutate_if(is.character, as.factor) %>% 
+  lca(formula=formula, data=., nclass=3, weights=ponde) -> 
+  modeloLCA  #Modelo para 
+
+modeloLCA$param$rho %>% reshape2::melt() %>% 
+  mutate(Var2=case_when(.$Var2==1 ~ "No", .$Var2==2 ~"Sí")) %>% 
+  rename(Variable=Var1) %>% 
+  inner_join(., diccionario, by="Variable") %>% 
+  mutate(Etiqueta=gsub("P27. Usted ha, o no ha  ", "", Etiqueta)) %>% 
+  ggplot(aes(x=str_wrap(`Etiqueta`, 30), y=value, fill=Var2)) +
+  geom_col() +
+  facet_wrap(~Var3, ncol=1) +
+  theme(axis.text.x = element_text(angle=90, hjust=1, vjust=0))
+
+#Con covariadas. 
+#Modelo 1. Intermediarios y sexo. 
+
+formula_cov <- cbind(p27_1, p27_2, p27_3, p27_4, p27_5, p27_6, p27_7, p27_8, p27_9)~gen1+gen1a+gen2+gen2a+gen3+gen3a+s1
+
+basecalidad %>% 
+  dplyr::select(starts_with("p27_"), gen1, gen1a, gen2, gen2a, gen3, gen3a, s1, ponde) %>%
+  mutate_if(is.character, funs(ifelse(.=="Ns/Nc" | .=="NS/NC", NA, .))) %>% 
+  na.omit() %>% 
+  mutate_if(is.character, as.factor) %>% 
+  lcacov(formula=formula_cov, data=., nclass=3, weights=ponde) ->modeloLCAcov
+
+modeloLCAcov$param$rho %>% reshape2::melt() %>% 
+  mutate(Var2=case_when(.$Var2==1 ~ "No", .$Var2==2 ~"Sí")) %>% 
+  rename(Variable=Var1) %>% 
+  inner_join(., diccionario, by="Variable") %>% 
+  mutate(Etiqueta=gsub("P27. Usted ha, o no ha  ", "", Etiqueta)) %>% 
+  ggplot(aes(x=str_wrap(`Etiqueta`, 30), y=value, fill=Var2)) +
+  geom_col() +
+  facet_wrap(~Var3, ncol=1) +
+  theme(axis.text.x = element_text(angle=90, hjust=1, vjust=0))
+
+#Modelo 2. 
+#Educación, ingreso, empleo, edad, 
+
+#Recodificación de empleo y educación. 
+
+basecalidad %>% 
+  mutate(educacion=recode(s3,                                 #Compacta nivel educactivo.
+       `Carrera Técnica`= "Prepa o técnica",
+                    `NC`= "NS/NC",
+               `Ninguno`= "Primaria o menos",
+                    `NS`= "NS/NC",
+          `Preparatoria`= "Prepa o técnica",
+     `Primaria completa`= "Primaria o menos",
+   `Primaria incompleta`= "Primaria o menos",
+   `Secundaria completa`= "Secundaria",
+ `Secundaria incompleta`= "Secundaria"))  %>% 
+  mutate(empleo=ifelse(s9=="-1", s7, s9)) %>%                 #Compacta situación laboral
+  mutate(empleo=recode(empleo, NC="NS/NC", NS ="NS/NC")) %>% 
+  mutate(ingreso=recode(s10,                                  #Compacta ingreso
+        `[A] 0 a  1 Sal. Mín. (0   a  1,943)` = "<3sm",
+       `[B] 1 a 2 Sal. Mín. (1,944 a  3,886)` = "<3sm",
+       `[C] 2 a 3 Sal. Mín. (3,887 a  5,829)` = "<3sm",
+        `[D] 3 a 4 Sal. Mín. (5,830 a 7,772)` = ">3sm<7sm",
+        `[E] 4 a 5 Sal. Mín. (7,773 a 9,715)` = ">3sm<7sm",
+     `[F] 5 a 6 Sal. Mín. (9,716  a  11,658)` = ">3sm<7sm",
+   `[G] 6 a  7 Sal. Mín. (11,659  a  13,601)` = ">3sm<7sm",
+   `[H] 7 a  8 Sal. Mín. (13,602  a  15,544)` = ">8sm",
+   `[I] 8 a 10 Sal. Mín. (15,545  a  19,430)` = ">8sm",
+`[J]  10 a  30  Sal. Mín. (19,431  a 58,290)` = ">8sm",
+    `[K]  30 ó más   Sal. Mín.(58,291 o más)` = ">8sm")) %>% 
+  group_by(empleo, ingreso, educacion) %>% 
+  tally() %>% 
+  kable(., caption="Validación de la recodificación")
+```
+
+
